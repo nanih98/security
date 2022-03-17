@@ -13,7 +13,7 @@ You will run the container and the user will be asterix (non-root), so you need 
 ```bash
 docker run -itd --name hack nanih98/sec:path-hijacking
 # You will be the user asterix
-docker exec -it hack bash 
+docker exec -it hack bash # sudo -l ? password for asterix is linux 
 ```
 
 **NOTE:** docker exec -u root is not valid :)
@@ -21,5 +21,3 @@ docker exec -it hack bash
 ```bash
 docker exec -it -u root hack bash
 ```
-
-* Password for asterix: linux
