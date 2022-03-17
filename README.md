@@ -2,13 +2,13 @@
 
 This is a small lab to practice path hijacking inside a linux!
 
-# Propose
+# Propose
 
 **Capture the flag inside /root/flag.txt**
 
 You will run the container and the user will be asterix (non-root), so you need to be root to see /root/flag.txt :)
 
-# Steps
+# Steps
 
 ```bash
 docker run -itd --name hack nanih98/sec:path-hijacking
