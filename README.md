@@ -1,4 +1,4 @@
-# Path hijacking inside a container
+# Path hijacking inside a container
 
 This is a small lab to practice path hijacking inside a linux!
 
