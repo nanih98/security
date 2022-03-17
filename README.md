@@ -21,3 +21,5 @@ docker exec -it hack bash
 ```bash
 docker exec -it -u root hack bash
 ```
+
+--> Password for asterix: linux
