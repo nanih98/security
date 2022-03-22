@@ -1,23 +1,13 @@
-# Path hijacking inside a container
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-This is a small lab to practice path hijacking inside a linux container!
+- [Security - Small labs](#security---small-labs)
+  - [Path hijacking inside a container](#path-hijacking-inside-a-container)
 
-# Propose
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-**Capture the flag inside /root/flag.txt**
+# Security - Small labs
 
-You will run the container and the user will be asterix (non-root), so you need to be root to see **/root/flag.txt** :)
-
-# Steps
-
-```bash
-docker run -itd --name hack docker.io/nanih98/sec:path-hijacking
-# You will be the user asterix
-docker exec -it hack bash # sudo -l ? password for asterix is linux 
-```
-
-**NOTE:** docker exec -u root is not valid :)
-
-```bash
-docker exec -it -u root hack bash
-```
+## Path hijacking inside a container
+  * [content](../containers-path-hijacking/README.md)
